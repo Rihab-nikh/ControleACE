@@ -1,0 +1,4 @@
+type Query {
+    getStudentByName(name: String) : [Student]
+    getStudentByDateDeNaissance(dateDeNaissance :String): [Student]
+}
